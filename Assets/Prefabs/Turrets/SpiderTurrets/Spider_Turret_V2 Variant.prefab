@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1984470427926581551
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8eb81d5385047754f98e9f029b1bbc10, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eb81d5385047754f98e9f029b1bbc10, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.38662
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eb81d5385047754f98e9f029b1bbc10, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.68391156
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eb81d5385047754f98e9f029b1bbc10, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.7556915
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eb81d5385047754f98e9f029b1bbc10, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eb81d5385047754f98e9f029b1bbc10, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eb81d5385047754f98e9f029b1bbc10, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eb81d5385047754f98e9f029b1bbc10, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eb81d5385047754f98e9f029b1bbc10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eb81d5385047754f98e9f029b1bbc10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8eb81d5385047754f98e9f029b1bbc10, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8eb81d5385047754f98e9f029b1bbc10, type: 3}
+      propertyPath: m_Name
+      value: Spider_Turret_V2 Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8eb81d5385047754f98e9f029b1bbc10, type: 3}
+--- !u!1 &1678479846140406910 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8eb81d5385047754f98e9f029b1bbc10, type: 3}
+  m_PrefabInstance: {fileID: 1984470427926581551}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-5928942362444609546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678479846140406910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96646fc6e4cf3f742b45650c3314ad24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationDamp: 7
+  range: 40
+  enemy: Enemy
+  closestEnemy: {fileID: 0}
+--- !u!114 &-1429093601533578571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678479846140406910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7303f05bdc8b414091a0357c194aa12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 8
+  rateOfFire: 0.2
+  impactForce: 10
+  bulletSpeed: 6
+  bulletSpread: 1
+  bulletSpreadVarience: {x: 0.1, y: 0.1, z: 0.1}
+  closestEnemy: {fileID: 0}
+  bulletSpawnPoint: {fileID: 4267184296498479258, guid: e193c33d178b0cc498554400bfa2c525, type: 3}
+  bulletEffect: {fileID: 3975813339443611254, guid: deb318f4988967b4280b4212b07fdcde, type: 3}
+  muzzleFlash: {fileID: 0}
+  bulletTrail: {fileID: 3430661438672447381, guid: ca89f51f821e8264eac3acca0c848578, type: 3}

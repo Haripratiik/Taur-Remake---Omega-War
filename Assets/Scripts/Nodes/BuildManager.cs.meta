@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 80ac15f7194753f449775883b051b283
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - SpiderTurret: {fileID: 5667019376257450096, guid: dec613e59f827444188bd7c8d36e0860, type: 3}
+  - SilencerTurret: {fileID: 1481835001280104119, guid: 8345d6c0ef3811b48b1c6368871980dc, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
